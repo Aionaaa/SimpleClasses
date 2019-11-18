@@ -14,4 +14,8 @@ public class Bottle {
     public int drinkWater() {
         return this.volume - 10;
     }
+
+    public int emptyBottle() {
+        return this.volume - this.volume;
+    }
 }
