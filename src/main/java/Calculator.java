@@ -11,4 +11,17 @@ public class Calculator {
     public int add(int int1, int int2) {
         return int1 + int2;
     }
+
+    public int subtract(int int1, int int2) {
+        return int1 - int2;
+    }
+
+
+    public int multiply(int int1, int int2) {
+        return int1 * int2;
+    }
+
+    public double divide(double doub1, double doub2) {
+        return doub1 / doub2;
+    }
 }
